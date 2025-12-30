@@ -1,0 +1,2 @@
+#	Thunk	Ordinal	Hint	Name
+0	00000000000184d2		0076	CertVerifyCertificateChainPolicy

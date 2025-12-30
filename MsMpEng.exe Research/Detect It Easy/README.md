@@ -1,0 +1,21 @@
+# Detect It Easy
+
+```bash
+PE64
+    Operation system: Windows(10)[AMD64, 64-bit, GUI]
+    Linker: Microsoft Linker(14.36.32595)
+    Compiler: Microsoft Visual C/C++(19.36.32595)[LTCG/C++]
+    Language: C++
+    Tool: Visual Studio(2022, v17.6)
+    Sign tool: Windows Authenticode(2.0)[PKCS #7]
+    Debug data: Binary[Offset=0x00016064,Size=0x24]
+        Debug data: PDB file link(7.0)
+    Overlay: Binary[Offset=0x0001e000,Size=0x29d8]
+        Certificate: WinAuth(2.0)[PKCS #7]
+
+```
+
+## Analysis Reports
+* [Entropy Analysis](./Entropy/README.md)
+* [Import Analysis](./Import/README.md)
+* [Strings Analysis](./Strings/README.md)

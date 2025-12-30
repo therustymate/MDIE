@@ -1,0 +1,14 @@
+# **Entropy Analysis**
+
+| Offset (hex) | Size (hex) | Size (decimal) | Entropy | Status | Name | Description |
+|--------------|------------|----------------|---------|---------|------|-------------|
+| `0000000000000000` | `0000000000001000` | 4,096 bytes | 0.88572 | **not packed** | **PE Header** |
+| `0000000000001000` | `0000000000012000` | 73,728 bytes | 6.30852 | **not packed** | **Section(0)['.text']** |
+| `0000000000013000` | `0000000000006000` | 24,576 bytes | 4.48051 | **not packed** | **Section(1)['.rdata']** |
+| `0000000000019000` | `0000000000001000` | 4,096 bytes | 3.28498 | **not packed** | **Section(2)['.data']** |
+| `000000000001a000` | `0000000000002000` | 8,192 bytes | 3.19555 | **not packed** | **Section(3)['.pdata']** |
+| `000000000001c000` | `0000000000001000` | 4,096 bytes | 3.59696 | **not packed** | **Section(4)['.rsrc']** |
+| `000000000001d000` | `0000000000001000` | 4,096 bytes | 0.81315 | **not packed** | **Section(5)['.reloc']** |
+| `000000000001e000` | `00000000000029d8` | 10,712 bytes | 7.51534 | **packed** | **Overlay** |
+
+![Entropy Graph](./MsMpEng.bin.Entropy.png)

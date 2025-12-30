@@ -1,0 +1,872 @@
+# Strings Analysis
+
+```
+Number	Offset	Address		Size	Type	String
+0	0000004d	000000014000004d	PE Header	28	A	!This program cannot be run in DOS mode.
+1	000001f0	00000001400001f0	PE Header	05	A	.text
+2	00000217	0000000140000217	PE Header	07	A	`.rdata
+3	0000023f	000000014000023f	PE Header	06	A	@.data
+4	00000268	0000000140000268	PE Header	06	A	.pdata
+5	0000028f	000000014000028f	PE Header	06	A	@.rsrc
+6	000002b7	00000001400002b7	PE Header	07	A	@.reloc
+7	0000104b	000000014000104b	Section(0)['.text']	06	A	fE9@u
+8	00001083	0000000140001083	Section(0)['.text']	06	A	fE9@u
+9	00001153	0000000140001153	Section(0)['.text']	06	A	fE9@u
+10	0000118b	000000014000118b	Section(0)['.text']	06	A	fE9@u
+11	000011c3	00000001400011c3	Section(0)['.text']	06	A	fE9@u
+12	000011fb	00000001400011fb	Section(0)['.text']	06	A	fE9@u
+13	00001233	0000000140001233	Section(0)['.text']	06	A	fE9@u
+14	0000126b	000000014000126b	Section(0)['.text']	06	A	fE9Hu
+15	0000128e	000000014000128e	Section(0)['.text']	05	A	D$PE3
+16	0000129f	000000014000129f	Section(0)['.text']	05	A	T$hE3
+17	00001387	0000000140001387	Section(0)['.text']	05	A	t$WH
+18	000013b3	00000001400013b3	Section(0)['.text']	05	A	D$0t
+19	0000141a	000000014000141a	Section(0)['.text']	05	A	L$@H3
+20	000019db	00000001400019db	Section(0)['.text']	08	A	f9AuTL+
+21	00001ae6	0000000140001ae6	Section(0)['.text']	05	A	\$UH
+22	00001d75	0000000140001d75	Section(0)['.text']	07	A	u/HcH<H
+23	00001d8b	0000000140001d8b	Section(0)['.text']	06	A	f9Au
+24	00001fa4	0000000140001fa4	Section(0)['.text']	05	A	@SVWH
+25	00002057	0000000140002057	Section(0)['.text']	05	A	t$WH
+26	00002071	0000000140002071	Section(0)['.text']	05	A	ntelA
+27	00002078	0000000140002078	Section(0)['.text']	05	A	ineID
+28	000022c4	00000001400022c4	Section(0)['.text']	05	A	t$WH
+29	0000239a	000000014000239a	Section(0)['.text']	07	A	D8L$0u`
+30	00002448	0000000140002448	Section(0)['.text']	05	A	|$(A^
+31	0000252b	000000014000252b	Section(0)['.text']	0c	A	l$VWATAVAWH
+32	00002563	0000000140002563	Section(0)['.text']	05	A	tzIcF
+33	00002589	0000000140002589	Section(0)['.text']	05	A	T$PE3
+34	000025ef	00000001400025ef	Section(0)['.text']	09	A	 A_A^A\_^
+35	0000262c	000000014000262c	Section(0)['.text']	0d	A	t$WATAUAVAWH
+36	000026d5	00000001400026d5	Section(0)['.text']	0a	A	D;9|D;y
+37	0000274e	000000014000274e	Section(0)['.text']	09	A	A_A^A]A\_
+38	00002771	0000000140002771	Section(0)['.text']	05	A	x AVH
+39	00002798	0000000140002798	Section(0)['.text']	05	A	(t$ H
+40	000027e9	00000001400027e9	Section(0)['.text']	05	A	(t$ A
+41	00002882	0000000140002882	Section(0)['.text']	05	A	t$@H
+42	0000296b	000000014000296b	Section(0)['.text']	05	A	HcE_H
+43	00002a6c	0000000140002a6c	Section(0)['.text']	05	A	HcE_L
+44	00002a94	0000000140002a94	Section(0)['.text']	05	A	HcEgH
+45	00002cc5	0000000140002cc5	Section(0)['.text']	05	A	H;XXs
+46	00002d02	0000000140002d02	Section(0)['.text']	06	A	H;xXu5
+47	00002f1f	0000000140002f1f	Section(0)['.text']	05	A	t7HcP
+48	00002f9e	0000000140002f9e	Section(0)['.text']	05	A	|LcJ
+49	0000310c	000000014000310c	Section(0)['.text']	0d	A	t$WATAUAVAWH
+50	00003153	0000000140003153	Section(0)['.text']	05	A	t$8;;
+51	00003256	0000000140003256	Section(0)['.text']	05	A	 tDE3
+52	000032ed	00000001400032ed	Section(0)['.text']	09	A	A_A^A]A\_
+53	00003401	0000000140003401	Section(0)['.text']	07	A	fffffff
+54	000034c2	00000001400034c2	Section(0)['.text']	06	A	ffffff
+55	00003583	0000000140003583	Section(0)['.text']	05	A	fffff
+56	00003681	0000000140003681	Section(0)['.text']	07	A	vKfffff
+57	00003734	0000000140003734	Section(0)['.text']	06	A	|$AVH
+58	000037e7	00000001400037e7	Section(0)['.text']	05	A	t$ WH
+59	000039f3	00000001400039f3	Section(0)['.text']	06	A	(McHM
+60	00003a34	0000000140003a34	Section(0)['.text']	05	A	HcCH
+61	00003a48	0000000140003a48	Section(0)['.text']	05	A	HcRH
+62	00003a77	0000000140003a77	Section(0)['.text']	05	A	HcCH
+63	00003a7d	0000000140003a7d	Section(0)['.text']	05	A	L$@;|
+64	00003ab4	0000000140003ab4	Section(0)['.text']	07	A	tRLcYL
+65	00003bf7	0000000140003bf7	Section(0)['.text']	05	A	|$(A^
+66	00003c0c	0000000140003c0c	Section(0)['.text']	0a	A	|$AUAVAWH
+67	00003cfc	0000000140003cfc	Section(0)['.text']	05	A	McFH
+68	00003d30	0000000140003d30	Section(0)['.text']	05	A	A9~t
+69	00003d4d	0000000140003d4d	Section(0)['.text']	06	A	u4I9}(
+70	00003d62	0000000140003d62	Section(0)['.text']	05	A	Ic^I
+71	00003d82	0000000140003d82	Section(0)['.text']	08	A	;I9}(tiH
+72	00003d9a	0000000140003d9a	Section(0)['.text']	05	A	IcFH
+73	00003dd6	0000000140003dd6	Section(0)['.text']	07	A	0A_A^A]
+74	00003e0c	0000000140003e0c	Section(0)['.text']	0a	A	|$AUAVAWH
+75	00003eff	0000000140003eff	Section(0)['.text']	05	A	McFH
+76	00003f33	0000000140003f33	Section(0)['.text']	05	A	A9~t
+77	00003f50	0000000140003f50	Section(0)['.text']	06	A	u4I9}(
+78	00003f65	0000000140003f65	Section(0)['.text']	05	A	Ic^I
+79	00003f85	0000000140003f85	Section(0)['.text']	08	A	;I9}(tiH
+80	00003f9d	0000000140003f9d	Section(0)['.text']	05	A	IcFH
+81	00003fd9	0000000140003fd9	Section(0)['.text']	07	A	0A_A^A]
+82	00004010	0000000140004010	Section(0)['.text']	06	A	|$AVH
+83	0000405b	000000014000405b	Section(0)['.text']	05	A	Hc_H
+84	00004092	0000000140004092	Section(0)['.text']	05	A	Hc_H
+85	000040d0	00000001400040d0	Section(0)['.text']	06	A	|$AVH
+86	0000411c	000000014000411c	Section(0)['.text']	05	A	Hc_H
+87	00004153	0000000140004153	Section(0)['.text']	05	A	Hc_H
+88	00004191	0000000140004191	Section(0)['.text']	0e	A	@UVWATAUAVAWH
+89	00004251	0000000140004251	Section(0)['.text']	0c	A	`A_A^A]A\_^]
+90	00004269	0000000140004269	Section(0)['.text']	0e	A	@UVWATAUAVAWH
+91	00004329	0000000140004329	Section(0)['.text']	0c	A	`A_A^A]A\_^]
+92	00004338	0000000140004338	Section(0)['.text']	0e	A	@USVWATAUAVAWH
+93	000045ab	00000001400045ab	Section(0)['.text']	05	A	K0HcQ
+94	0000469a	000000014000469a	Section(0)['.text']	05	A	D9 t
+95	000046a5	00000001400046a5	Section(0)['.text']	05	A	HcO H
+96	000046dd	00000001400046dd	Section(0)['.text']	05	A	D9 t
+97	000046eb	00000001400046eb	Section(0)['.text']	05	A	HcG H
+98	000047b7	00000001400047b7	Section(0)['.text']	0c	A	A_A^A]A\_^[]
+99	00004814	0000000140004814	Section(0)['.text']	0e	A	@USVWATAUAVAWH
+100	000048c4	00000001400048c4	Section(0)['.text']	05	A	t)IcV
+101	00004ae1	0000000140004ae1	Section(0)['.text']	05	A	K0HcQ
+102	00004afe	0000000140004afe	Section(0)['.text']	05	A	D$pHc
+103	00004b38	0000000140004b38	Section(0)['.text']	0a	A	d$dD;d$ltY
+104	00004c38	0000000140004c38	Section(0)['.text']	05	A	L$h;M
+105	00004cba	0000000140004cba	Section(0)['.text']	0c	A	A_A^A]A\_^[]
+106	00004d1f	0000000140004d1f	Section(0)['.text']	0c	A	UVWATAUAVAWH
+107	00004d82	0000000140004d82	Section(0)['.text']	05	A	mwtMH
+108	00004dc3	0000000140004dc3	Section(0)['.text']	0b	A	A_A^A]A\_^]
+109	00004e91	0000000140004e91	Section(0)['.text']	05	A	t-Lck
+110	00004f12	0000000140004f12	Section(0)['.text']	05	A	MGD;}
+111	00004f2c	0000000140004f2c	Section(0)['.text']	0e	A	@USVWATAUAVAWH
+112	000051e9	00000001400051e9	Section(0)['.text']	05	A	L$`;M
+113	00005208	0000000140005208	Section(0)['.text']	0c	A	A_A^A]A\_^[]
+114	0000522d	000000014000522d	Section(0)['.text']	05	A	x AVH
+115	0000536d	000000014000536d	Section(0)['.text']	05	A	x AVH
+116	000054b1	00000001400054b1	Section(0)['.text']	05	A	x AVH
+117	00005503	0000000140005503	Section(0)['.text']	07	A	t9t
+118	00005547	0000000140005547	Section(0)['.text']	08	A	 t]9u7L
+119	000055d9	00000001400055d9	Section(0)['.text']	05	A	HcK H
+120	000056e4	00000001400056e4	Section(0)['.text']	09	A	t$WAVAWH
+121	00005722	0000000140005722	Section(0)['.text']	05	A	9p@u+
+122	000057d5	00000001400057d5	Section(0)['.text']	05	A	t'HcW
+123	00005887	0000000140005887	Section(0)['.text']	05	A	9t$Pu
+124	00005960	0000000140005960	Section(0)['.text']	05	A	A_A^_
+125	000059f8	00000001400059f8	Section(0)['.text']	05	A	tEHcR
+126	00005bc0	0000000140005bc0	Section(0)['.text']	0d	A	@SVWATAUAVAWH
+127	00005bd8	0000000140005bd8	Section(0)['.text']	05	A	|$ D!
+128	00005be3	0000000140005be3	Section(0)['.text']	05	A	L!|$(
+129	00005bed	0000000140005bed	Section(0)['.text']	05	A	D$`L!
+130	00005c78	0000000140005c78	Section(0)['.text']	09	A	D$8L9Xt
+131	00005d8d	0000000140005d8d	Section(0)['.text']	08	A	D$0HcHI
+132	00005da5	0000000140005da5	Section(0)['.text']	0c	A	pA_A^A]A\_^[
+133	00005dc3	0000000140005dc3	Section(0)['.text']	0a	A	SVWATAUAWH
+134	00005ddb	0000000140005ddb	Section(0)['.text']	05	A	d$ D!
+135	00005de6	0000000140005de6	Section(0)['.text']	05	A	L!d$(
+136	00005df2	0000000140005df2	Section(0)['.text']	06	A	L!d$@D
+137	00005ea7	0000000140005ea7	Section(0)['.text']	09	A	D$HL9gXt
+138	00006006	0000000140006006	Section(0)['.text']	09	A	A_A]A\_^[
+139	000061eb	00000001400061eb	Section(0)['.text']	06	A	B(I9A(
+140	00006273	0000000140006273	Section(0)['.text']	0c	A	SVWATAUAVAWH
+141	000063d5	00000001400063d5	Section(0)['.text']	0c	A	0A_A^A]A\_^[
+142	000063f3	00000001400063f3	Section(0)['.text']	0c	A	SVWATAUAVAWH
+143	000064aa	00000001400064aa	Section(0)['.text']	05	A	t?HcS
+144	00006563	0000000140006563	Section(0)['.text']	05	A	|$8L;
+145	0000656f	000000014000656f	Section(0)['.text']	05	A	L;|$X
+146	000065a0	00000001400065a0	Section(0)['.text']	05	A	(D$0f
+147	000066d7	00000001400066d7	Section(0)['.text']	0b	A	A_A^A]A\_^[
+148	000066f8	00000001400066f8	Section(0)['.text']	05	A	t$WH
+149	00006794	0000000140006794	Section(0)['.text']	0d	A	t$ WATAUAVAWH
+150	000067ca	00000001400067ca	Section(0)['.text']	05	A	E0Lc`
+151	000067e1	00000001400067e1	Section(0)['.text']	05	A	E0HcH
+152	00006864	0000000140006864	Section(0)['.text']	0a	A	 A_A^A]A\_
+153	00006884	0000000140006884	Section(0)['.text']	05	A	t$WH
+154	00006891	0000000140006891	Section(0)['.text']	05	A	9)~P3
+155	000069c7	00000001400069c7	Section(0)['.text']	0c	A	UVWATAUAVAWH
+156	000069f6	00000001400069f6	Section(0)['.text']	05	A	99~CE
+157	00006a79	0000000140006a79	Section(0)['.text']	0c	A	 A_A^A]A\_^]
+158	00006aac	0000000140006aac	Section(0)['.text']	05	A	wwH9Q
+159	00006acd	0000000140006acd	Section(0)['.text']	06	A	D$ I;R
+160	00006afc	0000000140006afc	Section(0)['.text']	06	A	D$ I9P
+161	00006f72	0000000140006f72	Section(0)['.text']	06	A	ffffff
+162	000071e1	00000001400071e1	Section(0)['.text']	07	A	fffffff
+163	00007382	0000000140007382	Section(0)['.text']	06	A	fffff
+164	00007590	0000000140007590	Section(0)['.text']	06	A	LcA<E3
+165	00007638	0000000140007638	Section(0)['.text']	07	A	uHcQ<H
+166	0000766d	000000014000766d	Section(0)['.text']	05	A	x AVH
+167	00007856	0000000140007856	Section(0)['.text']	05	A	t%fE9
+168	00007970	0000000140007970	Section(0)['.text']	0b	A	@SVWATAUAWH
+169	00007cac	0000000140007cac	Section(0)['.text']	06	A	L9|$8H
+170	00007cb3	0000000140007cb3	Section(0)['.text']	05	A	ET$8H
+171	00007d45	0000000140007d45	Section(0)['.text']	05	A	D9|$@
+172	00007e61	0000000140007e61	Section(0)['.text']	06	A	L9|$8t
+173	00007f4b	0000000140007f4b	Section(0)['.text']	09	A	A_A]A\_^[
+174	00007f77	0000000140007f77	Section(0)['.text']	06	A	WAVAWH
+175	000080c6	00000001400080c6	Section(0)['.text']	06	A	L9t$xt
+176	0000817c	000000014000817c	Section(0)['.text']	05	A	A_A^_
+177	000081eb	00000001400081eb	Section(0)['.text']	06	A	fE9Au
+178	0000837e	000000014000837e	Section(0)['.text']	07	A	\$UVWH
+179	000085b2	00000001400085b2	Section(0)['.text']	05	A	L$8H3
+180	000085e5	00000001400085e5	Section(0)['.text']	05	A	D$ E3
+181	00008626	0000000140008626	Section(0)['.text']	09	A	UWATAVAWH
+182	00008932	0000000140008932	Section(0)['.text']	08	A	A_A^A\_]
+183	0000893c	000000014000893c	Section(0)['.text']	06	A	@USVWH
+184	00008c83	0000000140008c83	Section(0)['.text']	0c	A	UVWATAUAVAWH
+185	00008d72	0000000140008d72	Section(0)['.text']	06	A	fD9$Cu
+186	00009391	0000000140009391	Section(0)['.text']	06	A	fD9$Cu
+187	00009455	0000000140009455	Section(0)['.text']	0b	A	A_A^A]A\_^]
+188	00009464	0000000140009464	Section(0)['.text']	0c	A	@USVWAUAVAWH
+189	00009822	0000000140009822	Section(0)['.text']	0b	A	@A_A^A]_^[]
+190	00009909	0000000140009909	Section(0)['.text']	06	A	fA9<Cu
+191	00009933	0000000140009933	Section(0)['.text']	06	A	fC9<Qu
+192	00009b20	0000000140009b20	Section(0)['.text']	06	A	|$ AVH
+193	00009cea	0000000140009cea	Section(0)['.text']	0b	A	\$ UVWAVAWH
+194	0000a0a3	000000014000a0a3	Section(0)['.text']	07	A	A_A^_^]
+195	0000a125	000000014000a125	Section(0)['.text']	08	A	x UAVAWH
+196	0000a328	000000014000a328	Section(0)['.text']	05	A	A_A^]
+197	0000a424	000000014000a424	Section(0)['.text']	09	A	l$UAVAWH
+198	0000a636	000000014000a636	Section(0)['.text']	05	A	A_A^]
+199	0000a6df	000000014000a6df	Section(0)['.text']	06	A	fE9Au
+200	0000a7ff	000000014000a7ff	Section(0)['.text']	05	A	t$ WH
+201	0000a99d	000000014000a99d	Section(0)['.text']	08	A	p WAVAWH
+202	0000ab46	000000014000ab46	Section(0)['.text']	05	A	(t$ H
+203	0000ab4d	000000014000ab4d	Section(0)['.text']	06	A	0A_A^_
+204	0000ac18	000000014000ac18	Section(0)['.text']	05	A	t$WH
+205	0000b167	000000014000b167	Section(0)['.text']	05	A	H;A u
+206	0000b178	000000014000b178	Section(0)['.text']	09	A	X(D8AtH
+207	0000b197	000000014000b197	Section(0)['.text']	05	A	D8At
+208	0000b1a2	000000014000b1a2	Section(0)['.text']	05	A	D8Bu
+209	0000b1b1	000000014000b1b1	Section(0)['.text']	05	A	D8@t
+210	0000b1e9	000000014000b1e9	Section(0)['.text']	07	A	H;A tIH
+211	0000b1f5	000000014000b1f5	Section(0)['.text']	08	A	P(8QtH
+212	0000b21d	000000014000b21d	Section(0)['.text']	05	A	A8Pu
+213	0000b248	000000014000b248	Section(0)['.text']	0d	A	|$UATAUAVAWH
+214	0000b3be	000000014000b3be	Section(0)['.text']	06	A	fF9,Ou
+215	0000b49c	000000014000b49c	Section(0)['.text']	09	A	A_A^A]A\]
+216	0000b50a	000000014000b50a	Section(0)['.text']	05	A	D$(H;
+217	0000b564	000000014000b564	Section(0)['.text']	05	A	L$(L;
+218	0000b65d	000000014000b65d	Section(0)['.text']	08	A	UVWAVAWH
+219	0000b690	000000014000b690	Section(0)['.text']	06	A	fF9<su
+220	0000b710	000000014000b710	Section(0)['.text']	06	A	fD9<Qu
+221	0000b819	000000014000b819	Section(0)['.text']	08	A	pA_A^_^]
+222	0000b874	000000014000b874	Section(0)['.text']	0d	A	|$ UATAUAVAWH
+223	0000b901	000000014000b901	Section(0)['.text']	05	A	8Kt
+224	0000b907	000000014000b907	Section(0)['.text']	07	A	A8OuI
+225	0000b925	000000014000b925	Section(0)['.text']	07	A	UUUUUUU
+226	0000b9bb	000000014000b9bb	Section(0)['.text']	09	A	A_A^A]A\]
+227	0000ba41	000000014000ba41	Section(0)['.text']	05	A	p AWH
+228	0000ba78	000000014000ba78	Section(0)['.text']	06	A	@8{t
+229	0000ba7f	000000014000ba7f	Section(0)['.text']	07	A	@8~uH
+230	0000bac5	000000014000bac5	Section(0)['.text']	07	A	USVWAVH
+231	0000bbce	000000014000bbce	Section(0)['.text']	06	A	fD94Cu
+232	0000bbdf	000000014000bbdf	Section(0)['.text']	05	A	H+E@f
+233	0000bcad	000000014000bcad	Section(0)['.text']	07	A	 A^_^[]
+234	0000bd9c	000000014000bd9c	Section(0)['.text']	05	A	8-uZH
+235	0000bdbf	000000014000bdbf	Section(0)['.text']	07	A	t9f90u4
+236	0000bea9	000000014000bea9	Section(0)['.text']	07	A	kVWAVH
+237	0000bf43	000000014000bf43	Section(0)['.text']	05	A	D$@H;
+238	0000c010	000000014000c010	Section(0)['.text']	05	A	L$@H3
+239	0000c163	000000014000c163	Section(0)['.text']	05	A	8Xu 
+240	0000c2b7	000000014000c2b7	Section(0)['.text']	06	A	fE9Au
+241	0000c320	000000014000c320	Section(0)['.text']	0d	A	|$ UATAUAVAWH
+242	0000c3e4	000000014000c3e4	Section(0)['.text']	07	A	xD9e0@
+243	0000c48b	000000014000c48b	Section(0)['.text']	10	A	E9/uwE9.urD9.umH
+244	0000c597	000000014000c597	Section(0)['.text']	0a	A	 A_A^A]A\]
+245	0000c92f	000000014000c92f	Section(0)['.text']	0b	A	L$ UVWAVAWH
+246	0000c979	000000014000c979	Section(0)['.text']	06	A	H!|$ L
+247	0000c9b2	000000014000c9b2	Section(0)['.text']	08	A	@A_A^_^]
+248	0000cad4	000000014000cad4	Section(0)['.text']	09	A	t$WAVAWH
+249	0000cb45	000000014000cb45	Section(0)['.text']	05	A	fA9\~
+250	0000cb4b	000000014000cb4b	Section(0)['.text']	07	A	uOfA9\~
+251	0000cb6c	000000014000cb6c	Section(0)['.text']	07	A	fA9u*3
+252	0000cb9c	000000014000cb9c	Section(0)['.text']	05	A	fA9\~
+253	0000cc4a	000000014000cc4a	Section(0)['.text']	06	A	 A_A^_
+254	0000cc77	000000014000cc77	Section(0)['.text']	06	A	H9t1H
+255	0000ccc8	000000014000ccc8	Section(0)['.text']	09	A	t$WAUAVH
+256	0000cd33	000000014000cd33	Section(0)['.text']	07	A	tfD9l~
+257	0000cdb5	000000014000cdb5	Section(0)['.text']	06	A	 A^A]_
+258	0000cdc8	000000014000cdc8	Section(0)['.text']	09	A	t$WAVAWH
+259	0000ce2c	000000014000ce2c	Section(0)['.text']	05	A	D$hH;
+260	0000ce50	000000014000ce50	Section(0)['.text']	06	A	0A_A^_
+261	0000cef8	000000014000cef8	Section(0)['.text']	05	A	D$hH9
+262	0000cf12	000000014000cf12	Section(0)['.text']	0f	A	\$UVWATAUAVAWH
+263	0000cf97	000000014000cf97	Section(0)['.text']	08	A	ukA;,$t 
+264	0000d07e	000000014000d07e	Section(0)['.text']	08	A	u.A;,$t
+265	0000d11b	000000014000d11b	Section(0)['.text']	0b	A	A_A^A]A\_^]
+266	0000d187	000000014000d187	Section(0)['.text']	05	A	VWAVH
+267	0000d211	000000014000d211	Section(0)['.text']	06	A	tfD;I
+268	0000d25e	000000014000d25e	Section(0)['.text']	05	A	ytH
+269	0000d2c2	000000014000d2c2	Section(0)['.text']	05	A	0A^_^
+270	0000d59a	000000014000d59a	Section(0)['.text']	05	A	f94Gu
+271	0000d7e2	000000014000d7e2	Section(0)['.text']	05	A	D$`E3
+272	0000d910	000000014000d910	Section(0)['.text']	0c	A	@SUVWATAVAWH
+273	0000d954	000000014000d954	Section(0)['.text']	06	A	\$0H9
+274	0000d988	000000014000d988	Section(0)['.text']	05	A	f9xu
+275	0000d9df	000000014000d9df	Section(0)['.text']	05	A	f9pu
+276	0000da0c	000000014000da0c	Section(0)['.text']	06	A	H;|$0s
+277	0000daa4	000000014000daa4	Section(0)['.text']	0a	A	A_A^A\_^][
+278	0000db40	000000014000db40	Section(0)['.text']	0d	A	t$WATAUAVAWH
+279	0000dc33	000000014000dc33	Section(0)['.text']	0a	A	0A_A^A]A\_
+280	0000dc69	000000014000dc69	Section(0)['.text']	05	A	|$@4s
+281	0000dcaf	000000014000dcaf	Section(0)['.text']	05	A	UWAVH
+282	0000dee8	000000014000dee8	Section(0)['.text']	05	A	t$WH
+283	0000deff	000000014000deff	Section(0)['.text']	05	A	f9,Zu
+284	0000e124	000000014000e124	Section(0)['.text']	05	A	t$WH
+285	0000e195	000000014000e195	Section(0)['.text']	05	A	f9Gt
+286	0000e247	000000014000e247	Section(0)['.text']	08	A	l$VWAVH
+287	0000e366	000000014000e366	Section(0)['.text']	05	A	0A^_^
+288	0000e4eb	000000014000e4eb	Section(0)['.text']	08	A	l$ VWAVH
+289	0000e537	000000014000e537	Section(0)['.text']	05	A	|$ H;
+290	0000e587	000000014000e587	Section(0)['.text']	05	A	|$ H;
+291	0000e9c6	000000014000e9c6	Section(0)['.text']	06	A	fD9Su
+292	0000e9dd	000000014000e9dd	Section(0)['.text']	06	A	fE9Au
+293	0000eaee	000000014000eaee	Section(0)['.text']	06	A	fA9<^u
+294	0000ebb4	000000014000ebb4	Section(0)['.text']	06	A	|$AVH
+295	0000ec40	000000014000ec40	Section(0)['.text']	09	A	t$WAVAWH
+296	0000ec6a	000000014000ec6a	Section(0)['.text']	06	A	fD9<Zu
+297	0000ed6c	000000014000ed6c	Section(0)['.text']	06	A	 A_A^_
+298	0000ef98	000000014000ef98	Section(0)['.text']	05	A	t$WH
+299	0000f02f	000000014000f02f	Section(0)['.text']	05	A	H;{ H
+300	0000f1a7	000000014000f1a7	Section(0)['.text']	05	A	H;J r
+301	0000f1c8	000000014000f1c8	Section(0)['.text']	09	A	t$WAVAWH
+302	0000f1e6	000000014000f1e6	Section(0)['.text']	05	A	f9,Au
+303	0000f266	000000014000f266	Section(0)['.text']	06	A	 A_A^_
+304	0000f277	000000014000f277	Section(0)['.text']	0f	A	D$UVWATAUAVAWH
+305	0000f526	000000014000f526	Section(0)['.text']	0c	A	@A_A^A]A\_^]
+306	0000f540	000000014000f540	Section(0)['.text']	0c	A	L$ UWATAVAWH
+307	0000f601	000000014000f601	Section(0)['.text']	05	A	:@u$H
+308	0000f62b	000000014000f62b	Section(0)['.text']	05	A	:-t[f
+309	0000f6c4	000000014000f6c4	Section(0)['.text']	09	A	0A_A^A\_]
+310	0000f772	000000014000f772	Section(0)['.text']	05	A	VWAVH
+311	0000f7aa	000000014000f7aa	Section(0)['.text']	05	A	t8H;O
+312	0000f870	000000014000f870	Section(0)['.text']	05	A	@A^_^
+313	0000f884	000000014000f884	Section(0)['.text']	0d	A	|$ UATAUAVAWH
+314	0000fa78	000000014000fa78	Section(0)['.text']	09	A	A_A^A]A\]
+315	0000fad4	000000014000fad4	Section(0)['.text']	05	A	tH;C
+316	0000fb07	000000014000fb07	Section(0)['.text']	06	A	|$ AVH
+317	0000fc29	000000014000fc29	Section(0)['.text']	05	A	p AWH
+318	0000fd64	000000014000fd64	Section(0)['.text']	0d	A	t$ WATAUAVAWH
+319	0000fe86	000000014000fe86	Section(0)['.text']	05	A	M#u0M
+320	0000ff7e	000000014000ff7e	Section(0)['.text']	0a	A	 A_A^A]A\_
+321	0000ffe7	000000014000ffe7	Section(0)['.text']	08	A	t$ WAVE3
+322	000100e9	00000001400100e9	Section(0)['.text']	05	A	/t"fA
+323	0001010e	000000014001010e	Section(0)['.text']	06	A	fG9YM
+324	0001011e	000000014001011e	Section(0)['.text']	07	A	<Q/t4fA
+325	00010126	0000000140010126	Section(0)['.text']	07	A	<Q\t,fA
+326	0001012e	000000014001012e	Section(0)['.text']	06	A	<Q:uCH
+327	00010179	0000000140010179	Section(0)['.text']	05	A	fE9Q
+328	000101e6	00000001400101e6	Section(0)['.text']	06	A	fE;QA
+329	000101f9	00000001400101f9	Section(0)['.text']	06	A	t$0A^_
+330	0001020c	000000014001020c	Section(0)['.text']	05	A	t$WH
+331	00010282	0000000140010282	Section(0)['.text']	07	A	sf9,Nu
+332	0001030e	000000014001030e	Section(0)['.text']	05	A	\$ E3
+333	0001032f	000000014001032f	Section(0)['.text']	08	A	l$VWAVH
+334	000103db	00000001400103db	Section(0)['.text']	05	A	 A^_^
+335	000103eb	00000001400103eb	Section(0)['.text']	08	A	t$ UWAVH
+336	000105d2	00000001400105d2	Section(0)['.text']	05	A	UWAVH
+337	00010710	0000000140010710	Section(0)['.text']	05	A	 A^_]
+338	00010947	0000000140010947	Section(0)['.text']	05	A	|$UH
+339	00010c9c	0000000140010c9c	Section(0)['.text']	05	A	t$WH
+340	00011254	0000000140011254	Section(0)['.text']	05	A	t$WH
+341	00011416	0000000140011416	Section(0)['.text']	0b	A	\$UVWATAVH
+342	00011442	0000000140011442	Section(0)['.text']	05	A	E0y6H
+343	00011552	0000000140011552	Section(0)['.text']	08	A	 A^A\_^]
+344	000115a6	00000001400115a6	Section(0)['.text']	05	A	D$SH
+345	00011767	0000000140011767	Section(0)['.text']	05	A	l$WH
+346	0001188e	000000014001188e	Section(0)['.text']	06	A	D$0H=#
+347	00011a2f	0000000140011a2f	Section(0)['.text']	06	A	fE9@u
+348	00011e72	0000000140011e72	Section(0)['.text']	05	A	HcQ<H
+349	00011eec	0000000140011eec	Section(0)['.text']	05	A	D9Cs
+350	00011ef5	0000000140011ef5	Section(0)['.text']	05	A	+C9C
+351	00011f38	0000000140011f38	Section(0)['.text']	05	A	|$UH
+352	00011ff7	0000000140011ff7	Section(0)['.text']	06	A	Authu7
+353	00011fff	0000000140011fff	Section(0)['.text']	06	A	cAMDu/
+354	00012007	0000000140012007	Section(0)['.text']	07	A	entiu'3
+355	00012095	0000000140012095	Section(0)['.text']	05	A	x AVH
+356	000121a6	00000001400121a6	Section(0)['.text']	05	A	@SUWH
+357	00012249	0000000140012249	Section(0)['.text']	05	A	@SUWH
+358	00013d58	0000000140013d58	Section(1)['.rdata']	0d	A	bad exception
+359	00013d90	0000000140013d90	Section(1)['.rdata']	20	U	api-ms-win-core-synch-l1-2-0.dll
+360	00013dd8	0000000140013dd8	Section(1)['.rdata']	18	A	SleepConditionVariableCS
+361	00013df8	0000000140013df8	Section(1)['.rdata']	18	A	WakeAllConditionVariable
+362	00013e28	0000000140013e28	Section(1)['.rdata']	0c	U	BetaPlatform
+363	00013e48	0000000140013e48	Section(1)['.rdata']	1a	U	ManagedDefenderProductType
+364	00013e80	0000000140013e80	Section(1)['.rdata']	0b	U	PassiveMode
+365	00013e98	0000000140013e98	Section(1)['.rdata']	0b	U	PartnerGUID
+366	00013eb0	0000000140013eb0	Section(1)['.rdata']	2c	U	Software\Microsoft\Windows Defender\Features
+367	00013f10	0000000140013f10	Section(1)['.rdata']	0a	U	SenseOrgId
+368	00013f28	0000000140013f28	Section(1)['.rdata']	0b	U	%d.%d.%d.%d
+369	00013f40	0000000140013f40	Section(1)['.rdata']	0e	A	ServiceCrtMain
+370	00013f70	0000000140013f70	Section(1)['.rdata']	0e	U	%d.%d.%d.%d-%d
+371	00013f90	0000000140013f90	Section(1)['.rdata']	0c	A	ValidateDrop
+372	00013fa0	0000000140013fa0	Section(1)['.rdata']	0d	U	%ls\mpsvc.dll
+373	00013fc0	0000000140013fc0	Section(1)['.rdata']	1b	U	Miscellaneous Configuration
+374	00013ff8	0000000140013ff8	Section(1)['.rdata']	17	U	MpService_AllowTestCert
+375	00014028	0000000140014028	Section(1)['.rdata']	0c	U	%ls\Platform
+376	00014048	0000000140014048	Section(1)['.rdata']	11	U	NewDropIdLocation
+377	00014070	0000000140014070	Section(1)['.rdata']	12	U	%ls\%d.%d.%d.%d-%d
+378	00014098	0000000140014098	Section(1)['.rdata']	0f	U	BlockedLocation
+379	000140b8	00000001400140b8	Section(1)['.rdata']	0b	U	NewLocation
+380	000140d0	00000001400140d0	Section(1)['.rdata']	0b	U	Diagnostics
+381	000140e8	00000001400140e8	Section(1)['.rdata']	14	U	IsPlatformRolledback
+382	00014118	0000000140014118	Section(1)['.rdata']	1a	U	PlatformRollbackInProgress
+383	00014150	0000000140014150	Section(1)['.rdata']	0b	U	%u.%u.%u.%u
+384	00014170	0000000140014170	Section(1)['.rdata']	24	U	Diagnostics\BlockedVersions\Platform
+385	000141c0	00000001400141c0	Section(1)['.rdata']	27	U	SYSTEM\CurrentControlSet\Control\MiniNT
+386	00014238	0000000140014238	Section(1)['.rdata']	11	A	Unknown exception
+387	00014250	0000000140014250	Section(1)['.rdata']	14	A	bad array new length
+388	00014268	0000000140014268	Section(1)['.rdata']	0c	U	%016I64x%04x
+389	00014288	0000000140014288	Section(1)['.rdata']	10	A	map/set too long
+390	000142a0	00000001400142a0	Section(1)['.rdata']	1f	U	%ProgramFiles%\Windows Defender
+391	000142e0	00000001400142e0	Section(1)['.rdata']	23	U	Software\Microsoft\Windows Defender
+392	00014328	0000000140014328	Section(1)['.rdata']	12	U	ProductAppDataPath
+393	00014350	0000000140014350	Section(1)['.rdata']	0c	U	MpClient.dll
+394	00014370	0000000140014370	Section(1)['.rdata']	09	U	MpSvc.dll
+395	00014388	0000000140014388	Section(1)['.rdata']	0b	U	MsMpEng.exe
+396	000143a0	00000001400143a0	Section(1)['.rdata']	07	U	%ls\%ls
+397	000143ba	00000001400143ba	Section(1)['.rdata']	05	A	=14%l
+398	000143c0	00000001400143c0	Section(1)['.rdata']	0c	U	SenseEnabled
+399	000143e0	00000001400143e0	Section(1)['.rdata']	2c	U	Software\Microsoft\Windows Defender\MpEngine
+400	00014440	0000000140014440	Section(1)['.rdata']	0c	U	MpEngineRing
+401	00014460	0000000140014460	Section(1)['.rdata']	0a	U	MpCampRing
+402	00014478	0000000140014478	Section(1)['.rdata']	0f	U	MpSignatureRing
+403	000144a0	00000001400144a0	Section(1)['.rdata']	31	U	Software\Microsoft\Microsoft Antimalware\MpEngine
+404	00014508	0000000140014508	Section(1)['.rdata']	0c	U	advapi32.dll
+405	00014528	0000000140014528	Section(1)['.rdata']	13	A	EventSetInformation
+406	00014540	0000000140014540	Section(1)['.rdata']	09	A	hr=0x%08X
+407	00014559	0000000140014559	Section(1)['.rdata']	05	A	)JG~R
+408	000148c8	00000001400148c8	Section(1)['.rdata']	0f	A	string too long
+409	000148e0	00000001400148e0	Section(1)['.rdata']	09	U	%ls%ls%ls
+410	00014910	0000000140014910	Section(1)['.rdata']	15	U	__NO_STRING_EXPANSION
+411	00014940	0000000140014940	Section(1)['.rdata']	1a	A	unordered_map/set too long
+412	00014960	0000000140014960	Section(1)['.rdata']	19	A	invalid hash bucket count
+413	00014980	0000000140014980	Section(1)['.rdata']	0e	U	forwarders\%ls
+414	000149a0	00000001400149a0	Section(1)['.rdata']	0c	U	kernel32.dll
+415	000149d0	00000001400149d0	Section(1)['.rdata']	19	A	GetFileVersionInfoSizeExW
+416	000149f0	00000001400149f0	Section(1)['.rdata']	17	A	GetFileVersionInfoSizeW
+417	00014a08	0000000140014a08	Section(1)['.rdata']	13	A	GetFileVersionInfoW
+418	00014a20	0000000140014a20	Section(1)['.rdata']	15	A	GetFileVersionInfoExW
+419	00014a38	0000000140014a38	Section(1)['.rdata']	0e	A	VerQueryValueW
+420	00014a60	0000000140014a60	Section(1)['.rdata']	0e	A	bad allocation
+421	00014a86	0000000140014a86	Section(1)['.rdata']	05	A	Q8O=^
+422	00014a90	0000000140014a90	Section(1)['.rdata']	3f	A	v._master_2020-12-14T09:20:49-08:00_5b3acb1_2020-12-22T16:20:51
+423	00015ec7	0000000140015ec7	Section(1)['.rdata']	15	A	Platform.PlatUpdStart
+424	00015edd	0000000140015edd	Section(1)['.rdata']	0e	A	PartA_PrivTags
+425	00015eed	0000000140015eed	Section(1)['.rdata']	0b	A	ProductGuid
+426	00015efa	0000000140015efa	Section(1)['.rdata']	0d	A	EngineVersion
+427	00015f09	0000000140015f09	Section(1)['.rdata']	0a	A	SigVersion
+428	00015f15	0000000140015f15	Section(1)['.rdata']	0a	A	AppVersion
+429	00015f21	0000000140015f21	Section(1)['.rdata']	0b	A	PartnerGuid
+430	00015f2e	0000000140015f2e	Section(1)['.rdata']	05	A	OrgId
+431	00015f35	0000000140015f35	Section(1)['.rdata']	06	A	IsBeta
+432	00015f3d	0000000140015f3d	Section(1)['.rdata']	09	A	IsManaged
+433	00015f48	0000000140015f48	Section(1)['.rdata']	0d	A	IsPassiveMode
+434	00015f57	0000000140015f57	Section(1)['.rdata']	10	A	IsSxsPassiveMode
+435	00015f69	0000000140015f69	Section(1)['.rdata']	0d	A	ShouldHashIds
+436	00015f78	0000000140015f78	Section(1)['.rdata']	0a	A	EngineRing
+437	00015f84	0000000140015f84	Section(1)['.rdata']	08	A	CampRing
+438	00015f8e	0000000140015f8e	Section(1)['.rdata']	0d	A	SignatureRing
+439	00015f9d	0000000140015f9d	Section(1)['.rdata']	07	A	Version
+440	00015fa6	0000000140015fa6	Section(1)['.rdata']	0a	A	DropFolder
+441	00015fc5	0000000140015fc5	Section(1)['.rdata']	1a	A	Microsoft.Windows.Defender
+442	00016006	0000000140016006	Section(1)['.rdata']	1a	A	Microsoft.Windows.Defender
+443	00016034	0000000140016034	Section(1)['.rdata']	1a	A	Microsoft.Windows.Defender
+444	0001607c	000000014001607c	Section(1)['.rdata']	0b	A	MsMpEng.pdb
+445	00016094	0000000140016094	Section(1)['.rdata']	05	A	.text
+446	000160a4	00000001400160a4	Section(1)['.rdata']	08	A	.text$di
+447	000160b8	00000001400160b8	Section(1)['.rdata']	08	A	.text$mn
+448	000160cc	00000001400160cc	Section(1)['.rdata']	0b	A	.text$mn$00
+449	000160e0	00000001400160e0	Section(1)['.rdata']	07	A	.text$x
+450	000160f0	00000001400160f0	Section(1)['.rdata']	08	A	.text$yd
+451	00016104	0000000140016104	Section(1)['.rdata']	0a	A	.rdata$brc
+452	00016118	0000000140016118	Section(1)['.rdata']	0c	A	.rdata$T$brc
+453	00016130	0000000140016130	Section(1)['.rdata']	08	A	.idata$5
+454	00016144	0000000140016144	Section(1)['.rdata']	06	A	.00cfg
+455	00016154	0000000140016154	Section(1)['.rdata']	08	A	.CRT$XCA
+456	00016168	0000000140016168	Section(1)['.rdata']	09	A	.CRT$XCAA
+457	0001617c	000000014001617c	Section(1)['.rdata']	08	A	.CRT$XCU
+458	00016190	0000000140016190	Section(1)['.rdata']	08	A	.CRT$XCZ
+459	000161a4	00000001400161a4	Section(1)['.rdata']	08	A	.CRT$XIA
+460	000161b8	00000001400161b8	Section(1)['.rdata']	09	A	.CRT$XIAA
+461	000161cc	00000001400161cc	Section(1)['.rdata']	09	A	.CRT$XIAC
+462	000161e0	00000001400161e0	Section(1)['.rdata']	08	A	.CRT$XIC
+463	000161f4	00000001400161f4	Section(1)['.rdata']	08	A	.CRT$XIZ
+464	00016208	0000000140016208	Section(1)['.rdata']	08	A	.CRT$XLA
+465	0001621c	000000014001621c	Section(1)['.rdata']	08	A	.CRT$XLZ
+466	00016230	0000000140016230	Section(1)['.rdata']	08	A	.CRT$XPA
+467	00016244	0000000140016244	Section(1)['.rdata']	08	A	.CRT$XPZ
+468	00016258	0000000140016258	Section(1)['.rdata']	08	A	.CRT$XTA
+469	0001626c	000000014001626c	Section(1)['.rdata']	08	A	.CRT$XTZ
+470	00016280	0000000140016280	Section(1)['.rdata']	08	A	.gehcont
+471	00016294	0000000140016294	Section(1)['.rdata']	06	A	.gfids
+472	000162a4	00000001400162a4	Section(1)['.rdata']	06	A	.giats
+473	000162b4	00000001400162b4	Section(1)['.rdata']	06	A	.rdata
+474	000162c4	00000001400162c4	Section(1)['.rdata']	08	A	.rdata$r
+475	000162d8	00000001400162d8	Section(1)['.rdata']	0d	A	.rdata$voltmd
+476	000162f0	00000001400162f0	Section(1)['.rdata']	0c	A	.rdata$zETW0
+477	00016308	0000000140016308	Section(1)['.rdata']	0c	A	.rdata$zETW1
+478	00016320	0000000140016320	Section(1)['.rdata']	0c	A	.rdata$zETW2
+479	00016338	0000000140016338	Section(1)['.rdata']	0c	A	.rdata$zETW9
+480	00016350	0000000140016350	Section(1)['.rdata']	0d	A	.rdata$zzzdbg
+481	00016368	0000000140016368	Section(1)['.rdata']	08	A	.rtc$IAA
+482	0001637c	000000014001637c	Section(1)['.rdata']	08	A	.rtc$IZZ
+483	00016390	0000000140016390	Section(1)['.rdata']	08	A	.rtc$TAA
+484	000163a4	00000001400163a4	Section(1)['.rdata']	08	A	.rtc$TZZ
+485	000163c8	00000001400163c8	Section(1)['.rdata']	05	A	.tls$
+486	000163d8	00000001400163d8	Section(1)['.rdata']	08	A	.tls$ZZZ
+487	000163ec	00000001400163ec	Section(1)['.rdata']	06	A	.xdata
+488	000163fc	00000001400163fc	Section(1)['.rdata']	08	A	.xdata$x
+489	00016410	0000000140016410	Section(1)['.rdata']	06	A	_RDATA
+490	00016420	0000000140016420	Section(1)['.rdata']	08	A	.idata$2
+491	00016434	0000000140016434	Section(1)['.rdata']	08	A	.idata$3
+492	00016448	0000000140016448	Section(1)['.rdata']	08	A	.idata$4
+493	0001645c	000000014001645c	Section(1)['.rdata']	08	A	.idata$6
+494	00016470	0000000140016470	Section(1)['.rdata']	09	A	.data$brc
+495	00016484	0000000140016484	Section(1)['.rdata']	0b	A	.data$r$brc
+496	00016498	0000000140016498	Section(1)['.rdata']	0c	A	.data$rs$brc
+497	000164b0	00000001400164b0	Section(1)['.rdata']	05	A	.data
+498	000164d0	00000001400164d0	Section(1)['.rdata']	06	A	.pdata
+499	000164e0	00000001400164e0	Section(1)['.rdata']	08	A	.rsrc$01
+500	000164f4	00000001400164f4	Section(1)['.rdata']	08	A	.rsrc$02
+501	00016c70	0000000140016c70	Section(1)['.rdata']	0a	A	TTjlb
+502	00016ce4	0000000140016ce4	Section(1)['.rdata']	06	A	p`P
+503	00017918	0000000140017918	Section(1)['.rdata']	05	A	2p
+504	00018372	0000000140018372	Section(1)['.rdata']	14	A	UnregisterTraceGuids
+505	0001838a	000000014001838a	Section(1)['.rdata']	13	A	RegisterTraceGuidsW
+506	000183a0	00000001400183a0	Section(1)['.rdata']	13	A	GetTraceEnableLevel
+507	000183b6	00000001400183b6	Section(1)['.rdata']	13	A	GetTraceEnableFlags
+508	000183cc	00000001400183cc	Section(1)['.rdata']	14	A	GetTraceLoggerHandle
+509	000183e4	00000001400183e4	Section(1)['.rdata']	0c	A	TraceMessage
+510	000183f4	00000001400183f4	Section(1)['.rdata']	0b	A	RegCloseKey
+511	00018402	0000000140018402	Section(1)['.rdata']	0d	A	RegOpenKeyExW
+512	00018412	0000000140018412	Section(1)['.rdata']	12	A	EventWriteTransfer
+513	00018426	0000000140018426	Section(1)['.rdata']	0c	A	ADVAPI32.dll
+514	00018436	0000000140018436	Section(1)['.rdata']	0c	A	GetLastError
+515	00018446	0000000140018446	Section(1)['.rdata']	0e	A	GetProcAddress
+516	00018458	0000000140018458	Section(1)['.rdata']	0b	A	FreeLibrary
+517	00018466	0000000140018466	Section(1)['.rdata']	11	A	GetCurrentProcess
+518	0001847a	000000014001847a	Section(1)['.rdata']	0b	A	CloseHandle
+519	00018488	0000000140018488	Section(1)['.rdata']	0c	A	SetErrorMode
+520	00018496	0000000140018496	Section(1)['.rdata']	0c	A	KERNEL32.dll
+521	000184a6	00000001400184a6	Section(1)['.rdata']	08	A	_wcsicmp
+522	000184b0	00000001400184b0	Section(1)['.rdata']	20	A	api-ms-win-crt-string-l1-1-0.dll
+523	000184d4	00000001400184d4	Section(1)['.rdata']	20	A	CertVerifyCertificateChainPolicy
+524	000184f6	00000001400184f6	Section(1)['.rdata']	0b	A	CRYPT32.dll
+525	00018504	0000000140018504	Section(1)['.rdata']	0e	A	WinVerifyTrust
+526	00018516	0000000140018516	Section(1)['.rdata']	1d	A	WTHelperProvDataFromStateData
+527	00018536	0000000140018536	Section(1)['.rdata']	1e	A	WTHelperGetProvSignerFromChain
+528	00018558	0000000140018558	Section(1)['.rdata']	23	A	CryptCATAdminCalcHashFromFileHandle
+529	0001857e	000000014001857e	Section(1)['.rdata']	1b	A	CryptCATAdminAcquireContext
+530	0001859c	000000014001859c	Section(1)['.rdata']	20	A	CryptCATAdminEnumCatalogFromHash
+531	000185c0	00000001400185c0	Section(1)['.rdata']	1e	A	CryptCATCatalogInfoFromContext
+532	000185e2	00000001400185e2	Section(1)['.rdata']	22	A	CryptCATAdminReleaseCatalogContext
+533	00018608	0000000140018608	Section(1)['.rdata']	1b	A	CryptCATAdminReleaseContext
+534	00018624	0000000140018624	Section(1)['.rdata']	0c	A	WINTRUST.dll
+535	00018634	0000000140018634	Section(1)['.rdata']	11	A	RtlCaptureContext
+536	00018648	0000000140018648	Section(1)['.rdata']	16	A	RtlLookupFunctionEntry
+537	00018662	0000000140018662	Section(1)['.rdata']	10	A	RtlVirtualUnwind
+538	00018676	0000000140018676	Section(1)['.rdata']	0b	A	RtlUnwindEx
+539	00018684	0000000140018684	Section(1)['.rdata']	11	A	RtlPcToFileHeader
+540	00018698	0000000140018698	Section(1)['.rdata']	09	A	RtlUnwind
+541	000186a4	00000001400186a4	Section(1)['.rdata']	15	A	RtlNtStatusToDosError
+542	000186ba	00000001400186ba	Section(1)['.rdata']	09	A	ntdll.dll
+543	000186c6	00000001400186c6	Section(1)['.rdata']	0f	A	EventUnregister
+544	000186d8	00000001400186d8	Section(1)['.rdata']	0d	A	EventRegister
+545	000186e8	00000001400186e8	Section(1)['.rdata']	10	A	RegQueryValueExW
+546	000186fc	00000001400186fc	Section(1)['.rdata']	0e	A	RegSetValueExW
+547	0001870e	000000014001870e	Section(1)['.rdata']	17	A	QueryPerformanceCounter
+548	00018728	0000000140018728	Section(1)['.rdata']	13	A	GetCurrentProcessId
+549	0001873e	000000014001873e	Section(1)['.rdata']	12	A	GetCurrentThreadId
+550	00018754	0000000140018754	Section(1)['.rdata']	17	A	GetSystemTimeAsFileTime
+551	0001876e	000000014001876e	Section(1)['.rdata']	13	A	InitializeSListHead
+552	00018784	0000000140018784	Section(1)['.rdata']	11	A	IsDebuggerPresent
+553	00018798	0000000140018798	Section(1)['.rdata']	18	A	UnhandledExceptionFilter
+554	000187b4	00000001400187b4	Section(1)['.rdata']	1b	A	SetUnhandledExceptionFilter
+555	000187d2	00000001400187d2	Section(1)['.rdata']	19	A	IsProcessorFeaturePresent
+556	000187ee	00000001400187ee	Section(1)['.rdata']	10	A	GetModuleHandleW
+557	00018802	0000000140018802	Section(1)['.rdata']	10	A	TerminateProcess
+558	00018816	0000000140018816	Section(1)['.rdata']	0e	A	RaiseException
+559	00018828	0000000140018828	Section(1)['.rdata']	0c	A	SetLastError
+560	00018838	0000000140018838	Section(1)['.rdata']	08	A	FlsAlloc
+561	00018844	0000000140018844	Section(1)['.rdata']	0b	A	FlsGetValue
+562	00018852	0000000140018852	Section(1)['.rdata']	0b	A	FlsSetValue
+563	00018860	0000000140018860	Section(1)['.rdata']	07	A	FlsFree
+564	0001886a	000000014001886a	Section(1)['.rdata']	0d	A	EncodePointer
+565	0001887a	000000014001887a	Section(1)['.rdata']	14	A	EnterCriticalSection
+566	00018892	0000000140018892	Section(1)['.rdata']	14	A	LeaveCriticalSection
+567	000188aa	00000001400188aa	Section(1)['.rdata']	1b	A	InitializeCriticalSectionEx
+568	000188c8	00000001400188c8	Section(1)['.rdata']	15	A	DeleteCriticalSection
+569	000188e0	00000001400188e0	Section(1)['.rdata']	12	A	GetModuleHandleExW
+570	000188f6	00000001400188f6	Section(1)['.rdata']	25	A	InitializeCriticalSectionAndSpinCount
+571	0001891e	000000014001891e	Section(1)['.rdata']	0e	A	FindFirstFileW
+572	00018930	0000000140018930	Section(1)['.rdata']	0d	A	FindNextFileW
+573	00018940	0000000140018940	Section(1)['.rdata']	19	A	ExpandEnvironmentStringsW
+574	0001895c	000000014001895c	Section(1)['.rdata']	09	A	FindClose
+575	00018968	0000000140018968	Section(1)['.rdata']	0b	A	CreateFileW
+576	00018976	0000000140018976	Section(1)['.rdata']	12	A	GetFileAttributesW
+577	0001898c	000000014001898c	Section(1)['.rdata']	0c	A	CreateEventW
+578	0001899c	000000014001899c	Section(1)['.rdata']	0e	A	LoadLibraryExW
+579	000189ae	00000001400189ae	Section(1)['.rdata']	12	A	GetModuleFileNameW
+580	000189c4	00000001400189c4	Section(1)['.rdata']	13	A	GetSystemDirectoryW
+581	000189da	00000001400189da	Section(1)['.rdata']	12	A	HeapSetInformation
+582	000189f0	00000001400189f0	Section(1)['.rdata']	0f	A	_seh_filter_exe
+583	00018a02	0000000140018a02	Section(1)['.rdata']	0d	A	_set_app_type
+584	00018a12	0000000140018a12	Section(1)['.rdata']	14	A	_configure_wide_argv
+585	00018a2a	0000000140018a2a	Section(1)['.rdata']	1c	A	_initialize_wide_environment
+586	00018a4a	0000000140018a4a	Section(1)['.rdata']	1d	A	_get_initial_wide_environment
+587	00018a6a	0000000140018a6a	Section(1)['.rdata']	09	A	_initterm
+588	00018a76	0000000140018a76	Section(1)['.rdata']	0b	A	_initterm_e
+589	00018a8c	0000000140018a8c	Section(1)['.rdata']	05	A	_exit
+590	00018a94	0000000140018a94	Section(1)['.rdata']	0a	A	_set_fmode
+591	00018aa2	0000000140018aa2	Section(1)['.rdata']	0a	A	__p___argc
+592	00018ab0	0000000140018ab0	Section(1)['.rdata']	0b	A	__p___wargv
+593	00018abe	0000000140018abe	Section(1)['.rdata']	06	A	_cexit
+594	00018ac8	0000000140018ac8	Section(1)['.rdata']	07	A	_c_exit
+595	00018ad2	0000000140018ad2	Section(1)['.rdata']	2a	A	_register_thread_local_exe_atexit_callback
+596	00018b00	0000000140018b00	Section(1)['.rdata']	13	A	_configthreadlocale
+597	00018b16	0000000140018b16	Section(1)['.rdata']	0d	A	_set_new_mode
+598	00018b26	0000000140018b26	Section(1)['.rdata']	0c	A	__p__commode
+599	00018b36	0000000140018b36	Section(1)['.rdata']	09	A	_callnewh
+600	00018b42	0000000140018b42	Section(1)['.rdata']	06	A	malloc
+601	00018b4c	0000000140018b4c	Section(1)['.rdata']	18	A	_initialize_onexit_table
+602	00018b68	0000000140018b68	Section(1)['.rdata']	19	A	_register_onexit_function
+603	00018b84	0000000140018b84	Section(1)['.rdata']	0b	A	_crt_atexit
+604	00018b92	0000000140018b92	Section(1)['.rdata']	09	A	terminate
+605	00018ba6	0000000140018ba6	Section(1)['.rdata']	05	A	abort
+606	00018bae	0000000140018bae	Section(1)['.rdata']	0a	A	_free_base
+607	00018bbc	0000000140018bbc	Section(1)['.rdata']	08	A	strcpy_s
+608	00018bc8	0000000140018bc8	Section(1)['.rdata']	0c	A	_calloc_base
+609	00018bd8	0000000140018bd8	Section(1)['.rdata']	17	A	__stdio_common_vsprintf
+610	00018bf2	0000000140018bf2	Section(1)['.rdata']	06	A	wcstol
+611	00018bfc	0000000140018bfc	Section(1)['.rdata']	07	A	isdigit
+612	00018c06	0000000140018c06	Section(1)['.rdata']	22	A	_invalid_parameter_noinfo_noreturn
+613	00018c2c	0000000140018c2c	Section(1)['.rdata']	18	A	__stdio_common_vswprintf
+614	00018c48	0000000140018c48	Section(1)['.rdata']	08	A	towlower
+615	00018c54	0000000140018c54	Section(1)['.rdata']	06	A	_errno
+616	00018c5e	0000000140018c5e	Section(1)['.rdata']	07	A	_wfopen
+617	00018c68	0000000140018c68	Section(1)['.rdata']	06	A	fclose
+618	00018c72	0000000140018c72	Section(1)['.rdata']	08	A	iswspace
+619	00018c7e	0000000140018c7e	Section(1)['.rdata']	06	A	fgetws
+620	00018c8e	0000000140018c8e	Section(1)['.rdata']	21	A	api-ms-win-crt-runtime-l1-1-0.dll
+621	00018cb0	0000000140018cb0	Section(1)['.rdata']	1f	A	api-ms-win-crt-stdio-l1-1-0.dll
+622	00018cd0	0000000140018cd0	Section(1)['.rdata']	20	A	api-ms-win-crt-locale-l1-1-0.dll
+623	00018cf2	0000000140018cf2	Section(1)['.rdata']	1e	A	api-ms-win-crt-heap-l1-1-0.dll
+624	00018d12	0000000140018d12	Section(1)['.rdata']	21	A	api-ms-win-crt-convert-l1-1-0.dll
+625	00018d36	0000000140018d36	Section(1)['.rdata']	0d	A	RtlGetVersion
+626	00018d46	0000000140018d46	Section(1)['.rdata']	0d	A	DecodePointer
+627	00018d56	0000000140018d56	Section(1)['.rdata']	08	A	HeapFree
+628	00018d62	0000000140018d62	Section(1)['.rdata']	09	A	HeapAlloc
+629	00018d6e	0000000140018d6e	Section(1)['.rdata']	0e	A	GetProcessHeap
+630	00018d80	0000000140018d80	Section(1)['.rdata']	0b	A	VirtualLock
+631	00018d8e	0000000140018d8e	Section(1)['.rdata']	05	A	ceilf
+632	00018d94	0000000140018d94	Section(1)['.rdata']	1e	A	api-ms-win-crt-math-l1-1-0.dll
+633	000190f8	00000001400190f8	Section(2)['.data']	17	A	.?AVbad_exception@std@@
+634	00019120	0000000140019120	Section(2)['.data']	13	A	.?AVexception@std@@
+635	00019148	0000000140019148	Section(2)['.data']	13	A	.?AVbad_alloc@std@@
+636	00019170	0000000140019170	Section(2)['.data']	1e	A	.?AVbad_array_new_length@std@@
+637	000191a0	00000001400191a0	Section(2)['.data']	26	A	.?AVCHResultExceptionImpl@CommonUtil@@
+638	000191d8	00000001400191d8	Section(2)['.data']	22	A	.?AVCHResultException@CommonUtil@@
+639	00019210	0000000140019210	Section(2)['.data']	16	A	.?AVout_of_range@std@@
+640	00019238	0000000140019238	Section(2)['.data']	1a	A	.?AVinvalid_argument@std@@
+641	00019268	0000000140019268	Section(2)['.data']	16	A	.?AVlength_error@std@@
+642	00019290	0000000140019290	Section(2)['.data']	15	A	.?AVlogic_error@std@@
+643	000192c0	00000001400192c0	Section(2)['.data']	0f	A	.?AVtype_info@@
+644	000192e0	00000001400192e0	Section(2)['.data']	15	A	.?AVCDropFolderInfo@@
+645	00019308	0000000140019308	Section(2)['.data']	15	A	.?AUIDropFolderInfo@@
+646	00019330	0000000140019330	Section(2)['.data']	33	A	.?AV?$CRefObjectFor@UIDropFolderInfo@@@CommonUtil@@
+647	00019380	0000000140019380	Section(2)['.data']	9a	A	.?AV?$CAssocIteratorImpl@UIDropFolderInfo@@V?$CAssocCollectionImpl@V?$CStdRefMapWideStringNoCase@VCDropFolderInfo@@@CommonUtil@@@CommonUtil@@@CommonUtil@@
+648	00019430	0000000140019430	Section(2)['.data']	39	A	.?AU?$IAssocIterator@PEB_WUIDropFolderInfo@@@CommonUtil@@
+649	00019480	0000000140019480	Section(2)['.data']	35	A	.?AU?$ISimpleIterator@UIDropFolderInfo@@@CommonUtil@@
+650	000194d0	00000001400194d0	Section(2)['.data']	65	A	.?AV?$CAssocCollectionImpl@V?$CStdRefMapWideStringNoCase@VCDropFolderInfo@@@CommonUtil@@@CommonUtil@@
+651	00019548	0000000140019548	Section(2)['.data']	1b	A	.?AVCRefObject@CommonUtil@@
+652	00019578	0000000140019578	Section(2)['.data']	1b	A	.?AUIRefObject@CommonUtil@@
+653	000195b0	00000001400195b0	Section(2)['.data']	3b	A	.?AU?$IAssocIteratorEx@PEB_WUIDropFolderInfo@@@CommonUtil@@
+654	00019600	0000000140019600	Section(2)['.data']	59	A	.?AV?$CRefObjectFor@U?$IAssocIteratorEx@PEB_WUIDropFolderInfo@@@CommonUtil@@@CommonUtil@@
+655	00019670	0000000140019670	Section(2)['.data']	1f	A	.?AVCFlatEnumFiles@CommonUtil@@
+656	000196a0	00000001400196a0	Section(2)['.data']	1b	A	.?AUIEnumFiles@CommonUtil@@
+657	000196d0	00000001400196d0	Section(2)['.data']	39	A	.?AV?$CRefObjectFor@UIEnumFiles@CommonUtil@@@CommonUtil@@
+658	00019720	0000000140019720	Section(2)['.data']	22	A	.?AUICmdOptionsLookup@CommonUtil@@
+659	00019758	0000000140019758	Section(2)['.data']	1a	A	.?AVCArgvIter@CommonUtil@@
+660	00019788	0000000140019788	Section(2)['.data']	29	A	.?AU?$ISimpleIterator@$$CB_W@CommonUtil@@
+661	000197c8	00000001400197c8	Section(2)['.data']	25	A	.?AVCCmdOptionsLookupMap@CommonUtil@@
+662	00019800	0000000140019800	Section(2)['.data']	48	A	.?AV?$CRefObjectFor@U?$IForwardIterator@$$CB_W@CommonUtil@@@CommonUtil@@
+663	00019860	0000000140019860	Section(2)['.data']	34	A	.?AVCSimpleMapItem@CCmdOptionsLookupMap@CommonUtil@@
+664	000198a8	00000001400198a8	Section(2)['.data']	2a	A	.?AU?$IForwardIterator@$$CB_W@CommonUtil@@
+665	000198f0	00000001400198f0	Section(2)['.data']	40	A	.?AV?$CRefObjectFor@UICmdOptionsLookup@CommonUtil@@@CommonUtil@@
+666	00019948	0000000140019948	Section(2)['.data']	23	A	.?AVCMpGlobalVarsTable@CommonUtil@@
+667	00019980	0000000140019980	Section(2)['.data']	20	A	.?AVCMpUtilsLibrary@CommonUtil@@
+668	000199b8	00000001400199b8	Section(2)['.data']	26	A	.?AVCPtrObjectProcessHeap@CommonUtil@@
+669	000199f0	00000001400199f0	Section(2)['.data']	1b	A	.?AVCPtrObject@CommonUtil@@
+670	00019a20	0000000140019a20	Section(2)['.data']	29	A	.?AVCPredefinedMpHeapsHolder@CommonUtil@@
+671	0001c0a0	000000014001d0a0	Section(4)['.rsrc']	28	A	<?xml version="1.0" encoding="UTF-8" ?> 
+672	0001c0ca	000000014001d0ca	Section(4)['.rsrc']	2c	A	<!-- Copyright (c) Microsoft Corporation -->
+673	0001c0f8	000000014001d0f8	Section(4)['.rsrc']	49	A	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+674	0001c143	000000014001d143	Section(4)['.rsrc']	38	A	    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+675	0001c17d	000000014001d17d	Section(4)['.rsrc']	12	A	        <security>
+676	0001c191	000000014001d191	Section(4)['.rsrc']	21	A	            <requestedPrivileges>
+677	0001c1b4	000000014001d1b4	Section(4)['.rsrc']	4f	A	                <requestedExecutionLevel level="asInvoker" uiAccess="false" /> 
+678	0001c205	000000014001d205	Section(4)['.rsrc']	22	A	            </requestedPrivileges>
+679	0001c229	000000014001d229	Section(4)['.rsrc']	13	A	        </security>
+680	0001c23e	000000014001d23e	Section(4)['.rsrc']	10	A	    </trustInfo>
+681	0001c250	000000014001d250	Section(4)['.rsrc']	47	A	    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
+682	0001c299	000000014001d299	Section(4)['.rsrc']	16	A	        <application> 
+683	0001c2b1	000000014001d2b1	Section(4)['.rsrc']	6c	A	            <!--This Id value indicates the application supports Windows Vista/Server 2008 functionality -->
+684	0001c31f	000000014001d31f	Section(4)['.rsrc']	47	A	            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
+685	0001c368	000000014001d368	Section(4)['.rsrc']	6a	A	            <!--This Id value indicates the application supports Windows 7/Server 2008 R2 functionality-->
+686	0001c3d4	000000014001d3d4	Section(4)['.rsrc']	46	A	            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+687	0001c41c	000000014001d41c	Section(4)['.rsrc']	67	A	            <!--This Id value indicates the application supports Windows 8/Server 2012 functionality-->
+688	0001c485	000000014001d485	Section(4)['.rsrc']	46	A	            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+689	0001c4d2	000000014001d4d2	Section(4)['.rsrc']	72	A	    <!-- This Id value indicates the application supports Windows Blue/Server 2012 R2 functionality-->            
+690	0001c54b	000000014001d54b	Section(4)['.rsrc']	3e	A	    <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+691	0001c590	000000014001d590	Section(4)['.rsrc']	68	A	    <!-- This Id value indicates the application supports Windows Threshold functionality-->            
+692	0001c5ff	000000014001d5ff	Section(4)['.rsrc']	3e	A	    <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+693	0001c63f	000000014001d63f	Section(4)['.rsrc']	17	A	        </application> 
+694	0001c658	000000014001d658	Section(4)['.rsrc']	14	A	    </compatibility>
+695	0001c66e	000000014001d66e	Section(4)['.rsrc']	0b	A	</assembly>
+696	0001c686	000000014001d686	Section(4)['.rsrc']	0f	U	VS_VERSION_INFO
+697	0001c6e2	000000014001d6e2	Section(4)['.rsrc']	0e	U	StringFileInfo
+698	0001c706	000000014001d706	Section(4)['.rsrc']	08	U	040904b0
+699	0001c71e	000000014001d71e	Section(4)['.rsrc']	0b	U	CompanyName
+700	0001c738	000000014001d738	Section(4)['.rsrc']	15	U	Microsoft Corporation
+701	0001c76a	000000014001d76a	Section(4)['.rsrc']	0f	U	FileDescription
+702	0001c78c	000000014001d78c	Section(4)['.rsrc']	1e	U	Antimalware Service Executable
+703	0001c7d2	000000014001d7d2	Section(4)['.rsrc']	0c	U	InternalName
+704	0001c7ec	000000014001d7ec	Section(4)['.rsrc']	0b	U	MsMpEng.exe
+705	0001c80a	000000014001d80a	Section(4)['.rsrc']	0e	U	LegalCopyright
+706	0001c82a	000000014001d82a	Section(4)['.rsrc']	2c	U	 Microsoft Corporation. All rights reserved.
+707	0001c88a	000000014001d88a	Section(4)['.rsrc']	10	U	OriginalFilename
+708	0001c8ac	000000014001d8ac	Section(4)['.rsrc']	0b	U	MsMpEng.exe
+709	0001c8ca	000000014001d8ca	Section(4)['.rsrc']	0b	U	ProductName
+710	0001c8e4	000000014001d8e4	Section(4)['.rsrc']	09	U	Microsoft
+711	0001c8f8	000000014001d8f8	Section(4)['.rsrc']	08	U	 Windows
+712	0001c90a	000000014001d90a	Section(4)['.rsrc']	11	U	 Operating System
+713	0001c936	000000014001d936	Section(4)['.rsrc']	0b	U	FileVersion
+714	0001c950	000000014001d950	Section(4)['.rsrc']	37	U	4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+715	0001c9c6	000000014001d9c6	Section(4)['.rsrc']	0e	U	ProductVersion
+716	0001c9e4	000000014001d9e4	Section(4)['.rsrc']	0c	U	4.18.23110.3
+717	0001ca06	000000014001da06	Section(4)['.rsrc']	0b	U	VarFileInfo
+718	0001ca26	000000014001da26	Section(4)['.rsrc']	0b	U	Translation
+719	0001e0b9		Overlay	07	A	W@{OA$/
+720	0001e119		Overlay	09	A	$ `DmQ0
+721	0001e18a		Overlay	05	A	P.cb
+722	0001e1d3		Overlay	07	A	3tc,&GW
+723	0001e1e5		Overlay	05	A	g\ZYm
+724	0001e233		Overlay	06	A	.[T{x
+725	0001e2e1		Overlay	06	A	)!y|P
+726	0001e305		Overlay	06	A	zaFIG
+727	0001e42c		Overlay	05	A	Y>:z?
+728	0001e45d		Overlay	05	A	B}<
+729	0001e57b		Overlay	0b	A	Washington1
+730	0001e590		Overlay	0b	A	Redmond10
+731	0001e5a1		Overlay	1a	A	Microsoft Corporation1.0,
+732	0001e5c1		Overlay	29	A	%Microsoft Windows Production PCA 20110
+733	0001e5eb		Overlay	0e	A	230808183822Z
+734	0001e5fa		Overlay	10	A	240807183822Z0z1
+735	0001e621		Overlay	0b	A	Washington1
+736	0001e636		Overlay	0b	A	Redmond10
+737	0001e647		Overlay	1a	A	Microsoft Corporation1$0"
+738	0001e667		Overlay	1d	A	Microsoft Windows Publisher0
+739	0001e6fe		Overlay	06	A	AvEPr
+740	0001e78d		Overlay	06	A	eD>f
+741	0001e809		Overlay	07	A	I0G1-0+
+742	0001e816		Overlay	29	A	$Microsoft Ireland Operations Limited10
+743	0001e846		Overlay	0f	A	230280+5014230
+744	0001e87c		Overlay	05	A	P0N0L
+745	0001e886		Overlay	49	A	Fhttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl%200a
+746	0001e8da		Overlay	05	A	U0S0Q
+747	0001e8ea		Overlay	47	A	Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0
+748	0001e9b2		Overlay	06	A	4"jia=
+749	0001ea21		Overlay	06	A	_Fz`<w
+750	0001ea3c		Overlay	05	A	U]D8
+751	0001ea95		Overlay	0b	A	Washington1
+752	0001eaaa		Overlay	0b	A	Redmond10
+753	0001eabb		Overlay	1a	A	Microsoft Corporation1200
+754	0001eadb		Overlay	2d	A	)Microsoft Root Certificate Authority 20100
+755	0001eb09		Overlay	0e	A	111019184142Z
+756	0001eb18		Overlay	0e	A	261019185142Z0
+757	0001eb40		Overlay	0b	A	Washington1
+758	0001eb55		Overlay	0b	A	Redmond10
+759	0001eb66		Overlay	1a	A	Microsoft Corporation1.0,
+760	0001eb86		Overlay	27	A	%Microsoft Windows Production PCA 20110
+761	0001ec30		Overlay	05	A	;S5|
+762	0001ec53		Overlay	06	A	i%(\6
+763	0001ec93		Overlay	06	A	5]l+\
+764	0001ed6d		Overlay	05	A	O0M0K
+765	0001ed77		Overlay	48	A	Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+766	0001edca		Overlay	05	A	N0L0J
+767	0001edda		Overlay	40	A	>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+768	0001ee92		Overlay	05	A	TlP0X
+769	0001eea6		Overlay	05	A	R!s4Z
+770	0001ef67		Overlay	05	A	W^)9
+771	0001efe3		Overlay	05	A	6*pZ
+772	0001f029		Overlay	05	A	bY~1
+773	0001f056		Overlay	0b	A	Washington1
+774	0001f06b		Overlay	0b	A	Redmond10
+775	0001f07c		Overlay	1a	A	Microsoft Corporation1.0,
+776	0001f09c		Overlay	26	A	%Microsoft Windows Production PCA 2011
+777	0001f16a		Overlay	08	U	Microsof
+778	0001f17e		Overlay	1a	A	http://www.microsoft.com0
+779	0001f1ec		Overlay	06	A	[,E?5
+780	0001f251		Overlay	05	A	P~pr\
+781	0001f282		Overlay	05	A	?\#]u
+782	0001f356		Overlay	14	A	20231106235525.428Z0
+783	0001f390		Overlay	0b	A	Washington1
+784	0001f3a5		Overlay	0b	A	Redmond10
+785	0001f3b6		Overlay	1a	A	Microsoft Corporation1-0+
+786	0001f3d6		Overlay	29	A	$Microsoft Ireland Operations Limited1&0$
+787	0001f405		Overlay	22	A	Thales TSS ESN:D082-4BFD-EEBA1%0#
+788	0001f42d		Overlay	1d	A	Microsoft Time-Stamp Service
+789	0001f499		Overlay	0b	A	Washington1
+790	0001f4ae		Overlay	0b	A	Redmond10
+791	0001f4bf		Overlay	1a	A	Microsoft Corporation1&0$
+792	0001f4df		Overlay	21	A	Microsoft Time-Stamp PCA 20100
+793	0001f501		Overlay	0e	A	231012190706Z
+794	0001f510		Overlay	0e	A	250110190706Z0
+795	0001f538		Overlay	0b	A	Washington1
+796	0001f54d		Overlay	0b	A	Redmond10
+797	0001f55e		Overlay	1a	A	Microsoft Corporation1-0+
+798	0001f57e		Overlay	29	A	$Microsoft Ireland Operations Limited1&0$
+799	0001f5ad		Overlay	22	A	Thales TSS ESN:D082-4BFD-EEBA1%0#
+800	0001f5d5		Overlay	1e	A	Microsoft Time-Stamp Service0
+801	0001f620		Overlay	06	A	kQayJ
+802	0001f6ba		Overlay	05	A	}RnMH
+803	0001f772		Overlay	06	A	$F0H#
+804	0001f7da		Overlay	05	A	]_"fp
+805	0001f868		Overlay	05	A	X0V0T
+806	0001f872		Overlay	51	A	Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+807	0001f8ce		Overlay	05	A	`0^0\
+808	0001f8de		Overlay	52	A	Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+809	0001f9ac		Overlay	06	A	Ci*MIN
+810	0001f9ef		Overlay	05	A	13nn
+811	0001fa69		Overlay	05	A	t'b]7
+812	0001fa7d		Overlay	05	A	'\nn
+813	0001fb71		Overlay	09	A	hl8JgmV0
+814	0001fbc5		Overlay	0b	A	Washington1
+815	0001fbda		Overlay	0b	A	Redmond10
+816	0001fbeb		Overlay	1a	A	Microsoft Corporation1200
+817	0001fc0b		Overlay	2d	A	)Microsoft Root Certificate Authority 20100
+818	0001fc39		Overlay	0e	A	210930182225Z
+819	0001fc48		Overlay	10	A	300930183225Z0|1
+820	0001fc6f		Overlay	0b	A	Washington1
+821	0001fc84		Overlay	0b	A	Redmond10
+822	0001fc95		Overlay	1a	A	Microsoft Corporation1&0$
+823	0001fcb5		Overlay	1f	A	Microsoft Time-Stamp PCA 20100
+824	0001fd5a		Overlay	05	A	q\Q17
+825	0001fd68		Overlay	05	A	&S|9a
+826	0001fe97		Overlay	05	A	!]_0t
+827	0001ff61		Overlay	05	A	U0S0Q
+828	0001ff82		Overlay	36	A	3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+829	0002002e		Overlay	05	A	O0M0K
+830	00020038		Overlay	48	A	Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+831	0002008b		Overlay	05	A	N0L0J
+832	0002009b		Overlay	40	A	>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+833	00020107		Overlay	05	A	>NGdx
+834	00020131		Overlay	05	A	fg:SM
+835	00020167		Overlay	05	A	xSu$W
+836	000201ad		Overlay	05	A	BRu
+837	000201b7		Overlay	09	A	as.,k{n?,
+838	000201d4		Overlay	05	A	J>f;O
+839	0002023b		Overlay	05	A	!TkjE
+840	0002031e		Overlay	0b	A	Washington1
+841	00020333		Overlay	0b	A	Redmond10
+842	00020344		Overlay	1a	A	Microsoft Corporation1-0+
+843	00020364		Overlay	29	A	$Microsoft Ireland Operations Limited1&0$
+844	00020393		Overlay	22	A	Thales TSS ESN:D082-4BFD-EEBA1%0#
+845	000203bb		Overlay	1d	A	Microsoft Time-Stamp Service
+846	0002041f		Overlay	0b	A	Washington1
+847	00020434		Overlay	0b	A	Redmond10
+848	00020445		Overlay	1a	A	Microsoft Corporation1&0$
+849	00020465		Overlay	1f	A	Microsoft Time-Stamp PCA 20100
+850	0002049d		Overlay	10	A	20231107055531Z
+851	000204ae		Overlay	13	A	20231108055531Z0t0:
+852	000204cd		Overlay	05	A	1,0*0
+853	00020509		Overlay	05	A	1(0&0
+854	000205ee		Overlay	0b	A	Washington1
+855	00020603		Overlay	0b	A	Redmond10
+856	00020614		Overlay	1a	A	Microsoft Corporation1&0$
+857	00020634		Overlay	1e	A	Microsoft Time-Stamp PCA 2010
+858	000206b5		Overlay	05	A	q~vn
+859	00020727		Overlay	0b	A	Washington1
+860	0002073c		Overlay	0b	A	Redmond10
+861	0002074d		Overlay	1a	A	Microsoft Corporation1&0$
+862	0002076d		Overlay	1e	A	Microsoft Time-Stamp PCA 2010
+863	000207f3		Overlay	06	A	ToU.-(
+864	00020805		Overlay	05	A	A_qg
+865	0002084b		Overlay	06	A	/}LygM
+
+```

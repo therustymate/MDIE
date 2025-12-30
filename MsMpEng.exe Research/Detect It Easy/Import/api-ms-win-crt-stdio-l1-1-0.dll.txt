@@ -1,0 +1,9 @@
+#	Thunk	Ordinal	Hint	Name
+0	0000000000018a92		0054	_set_fmode
+1	0000000000018b24		0001	__p__commode
+2	0000000000018c5c		0062	_wfopen
+3	0000000000018c2a		0011	__stdio_common_vswprintf
+4	0000000000018c86		0075	feof
+5	0000000000018c7c		007c	fgetws
+6	0000000000018c66		0074	fclose
+7	0000000000018bd6		000d	__stdio_common_vsprintf

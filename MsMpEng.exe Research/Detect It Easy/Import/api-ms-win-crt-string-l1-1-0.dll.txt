@@ -1,0 +1,6 @@
+#	Thunk	Ordinal	Hint	Name
+0	00000000000184a4		004a	_wcsicmp
+1	0000000000018bfa		0068	isdigit
+2	0000000000018c46		009a	towlower
+3	0000000000018bba		0089	strcpy_s
+4	0000000000018c70		007b	iswspace

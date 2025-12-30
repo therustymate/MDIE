@@ -1,0 +1,10 @@
+#	Thunk	Ordinal	Hint	Name
+0	0000000000018514		006d	WTHelperProvDataFromStateData
+1	0000000000018534		0068	WTHelperGetProvSignerFromChain
+2	0000000000018502		0091	WinVerifyTrust
+3	000000000001857c		0005	CryptCATAdminAcquireContext
+4	0000000000018606		000e	CryptCATAdminReleaseContext
+5	00000000000185e0		000d	CryptCATAdminReleaseCatalogContext
+6	0000000000018556		0008	CryptCATAdminCalcHashFromFileHandle
+7	00000000000185be		001a	CryptCATCatalogInfoFromContext
+8	000000000001859a		000b	CryptCATAdminEnumCatalogFromHash

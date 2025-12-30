@@ -50,7 +50,7 @@ ULONG __fastcall _tlgWriteTemplate<long (_tlgProvider_t const *,void const *,_GU
 
 ![Xref To dword_1400190A0](./ETW_Xref_To_dword_1400190A0.png)
 
-```mermaid
+```
 main
 └── HrExe
     ├── InitAsimov

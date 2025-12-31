@@ -95,7 +95,7 @@ Based on speculation, it uses a system called **Asimov** to detect malicious beh
 | SessionName       | MpWppTracing-20251224-111713-00000003-fffffffeffffffff    |
 | Guid              | {2A94554C-2FBE-46D0-9FA6-60562281B0CB}                    |
 | Level             | 0 (WINEVENT_LEVEL_LOG_ALWAYS)                             |
-| MatchAnyKeyword   | 0x3 (READ_KEYWORD | WRITE_KEYWORD)                        |
+| MatchAnyKeyword   | 0x3 (READ_KEYWORD OR WRITE_KEYWORD)                       |
 | MatchAllKeyword   | 0x0 (False)                                               |
 
 Reference: [Defining Keywords Used to Classify Types of Events](https://learn.microsoft.com/en-us/windows/win32/wes/defining-keywords-used-to-classify-types-of-events)
